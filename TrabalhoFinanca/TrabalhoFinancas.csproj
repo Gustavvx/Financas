@@ -57,7 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\relampago.jpg" />
+	  <None Remove="Resources\Images\investimento.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -73,13 +73,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="telaCotacao.xaml.cs">
+	  <Compile Update="telaPrincipal.xaml.cs">
 	    <DependentUpon>telaCotacao.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="telaCotacao.xaml">
+	  <MauiXaml Update="telaPrincipal.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
